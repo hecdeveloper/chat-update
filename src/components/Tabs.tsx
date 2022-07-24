@@ -7,7 +7,7 @@ function classNames(...classes: string[]) {
 
 export default function Example() {
   let [categories] = useState({
-    Recent: [
+    All: [
       {
         id: 1,
         title: 'Does drinking coffee make you smarter?',
@@ -23,7 +23,7 @@ export default function Example() {
         shareCount: 2,
       },
     ],
-    Popular: [
+    Active: [
       {
         id: 1,
         title: 'Is tech making coffee better or worse?',
@@ -39,7 +39,7 @@ export default function Example() {
         shareCount: 12,
       },
     ],
-    Trending: [
+    Closed: [
       {
         id: 1,
         title: 'Ask Me Anything: 10 answers to your questions about coffee',
@@ -58,7 +58,7 @@ export default function Example() {
   })
 
   return (
-    <div className="w-full max-w-md px-2 py-16 sm:px-0">
+    <div className="w-full px-2 py-16 ">
       <Tab.Group>
         <Tab.List className="flex p-1 space-x-1 rounded-xl bg-blue-900/20">
           {Object.keys(categories).map((category) => (
@@ -83,15 +83,15 @@ export default function Example() {
             <Tab.Panel
               key={idx}
               className={classNames(
-                'rounded-xl bg-white p-3',
-                'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2'
+                'rounded-xl p-3',
+                'ring-white  ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2'
               )}
             >
               <ul>
                 {posts.map((post) => (
                   <li
                     key={post.id}
-                    className="relative p-3 rounded-md hover:bg-gray-100"
+                    className="relative p-3 mb-2 bg-white rounded-md hover:bg-gray-100"
                   >
                     <h3 className="text-sm font-medium leading-5">
                       {post.title}
@@ -122,3 +122,5 @@ export default function Example() {
     </div>
   )
 }
+
+
