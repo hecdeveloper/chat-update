@@ -52,7 +52,7 @@ const grid = () => {
           className="w-full p-4 mb-1 bg-green-500 sm:w-1/6 md:w-1/5 lg:w-2/6 xl:w-2/12"
         ></div>
         <div
-          className="w-full p-4 mb-1 bg-green-900 sm:w-1/3 md:w-1/5 lg:w-1/6 xl:w-2/12"
+          className="w-full p-4 mb-1 bg-blue-900 sm:w-1/3 md:w-1/5 lg:w-1/6 xl:w-2/12"
         ></div>
 
         <div

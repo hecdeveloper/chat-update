@@ -1,15 +1,13 @@
 import React from "react";
+import Link from "next/link";
+import Nav from "../components/Nav";
 
 const page = () => {
   return (
-    <div className="flex flex-wrap bg-green-700">
-      <div className="h-screen bg-blue-700 l xl:w-2/12"></div>
-      <div className="flex flex-wrap h-screen bg-teal-700 xl:w-10/12">
-        <div className="w-5/12 h-full bg-blue-600"></div>
-        <div className="w-7/12 h-full bg-green-600"></div>
-      </div>
-      {/* <div className="w-full h-screen p-4 mb-1 bg-blue-600 xl:w-4/12"></div>
-      <div className="w-full h-screen p-4 mb-1 bg-blue-500 xl:w-7/12"></div> */}
+    <div className="flex flex-wrap h-screen bg-teal-800 p-7">
+      <Nav/>
+      <div className="w-full p-4 mb-4 bg-blue-600 sm:w-1/6 md:w-1/5 lg:w-2/6 xl:w-2/12"></div>
+      <div className="w-full p-4 mb-4 bg-blue-200 sm:w-1/2 md:w-3/5 lg:w-3/6 xl:w-8/12"></div>
     </div>
   );
 };
