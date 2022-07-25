@@ -39,18 +39,18 @@ const pageslim = () => {
         </ul>
       </div>
       <div className="col-span-9 col-start-4 row-span-5 mb-6 mr-5 rounded-br-lg bg-slate-50">
-        {/* 
+        
         <div className="container">
 
          <textarea placeholder="Message"
                 className="block w-full py-2 pl-4 mx-3 bg-gray-100 rounded-full outline-none focus:text-gray-700"
                 name="message" required />
-                </div> */}
+                </div>
 
-        <textarea
-          className="h-[46px] m-5  form-control dark:bg-darkmode-600 h-16 resize-none border-transparent px-5 py-3 shadow-none focus:border-transparent focus:ring-0"
+        {/* <textarea
+          className="h-[46px] m-5  form-control dark:bg-darkmode-600 resize-none border-transparent px-5 py-3 shadow-none focus:border-transparent focus:ring-0"
           placeholder="Type your message..."
-        ></textarea>
+        ></textarea> */}
       </div>
     </div>
   );
