@@ -58,9 +58,9 @@ export default function Example() {
   });
 
   return (
-    <div className="w-full px-2 py-16 ">
+    <div className="w-full px-3 ">
       <Tab.Group>
-        <div className="bg-zinc-50 py-2 px-3 rounded-lg">
+        <div className="bg-zinc-50 py-3 px-3 rounded-lg">
           <Tab.List className="flex p-1 space-x-1 rounded-xl bg-blue-900/20">
             {Object.keys(categories).map((category) => (
               <Tab
