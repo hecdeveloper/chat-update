@@ -4,7 +4,7 @@ import Tabs from "./Tabs";
 const Window = () => {
   return (
     <>
-      <div className="row-span-3 m-5 bg-blue-900 rounded-lg lg:col-span-4 lg:row-span-4 md:col-span-5">
+      <div className="row-span-3 mt-4 bg-blue-900 rounded-lg lg:col-span-4 lg:row-span-4 md:col-span-5">
         {/* search and stuff */}
         <div className="flex flex-row justify-between w-full p-3 bg-blue-100 rounded-t-lg">
           <div>App</div>
@@ -27,8 +27,8 @@ const Window = () => {
           </div>
           {/* conversation */}
           <div className="flex flex-col content-between bg-yellow-100 rounded-t-lg md:col-span-4">
-            <div className="flex w-full min-h-[10%] rounded-t-lg bg-blue-400"></div>
-            <div className="flex  w-full min-h-[80%] self-end  bg-blue-100"></div>
+            <div className="flex w-full min-h-[10%] rounded-t-lg bg-zinc-50"></div>
+            <div className="flex  w-full min-h-[80%] self-end  bg-zinc-50"></div>
             <div className="flex w-full min-h-[10%] pt-2 bg-blue-300"></div>
           </div>
         </div>

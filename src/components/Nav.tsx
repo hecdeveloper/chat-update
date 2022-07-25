@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <>
       <aside
-        className="m-4 p-4 bg-blue-900 t-10 lg:row-span-4 lg:col-span-1 md:col-span-5"
+        className="p-4 bg-blue-400 t-10 lg:row-span-4 lg:col-span-1 md:col-span-5"
         aria-label="Sidebar"
       >
         <ul className="flex flex-col space-y-2 rounded">
@@ -18,9 +18,9 @@ const Nav = () => {
             
             </li>
           </Link>
-          <li className="py-3 text-white bg-purple-600">
+          <li className="py-3 text-slate-500 rounded-l-full bg-blue-100">
             <a className="flex ml-3">
-              <SparklesIcon className="w-5 h-5 text-white" /> Online Reviews{" "}
+              <SparklesIcon className="w-5  h-5 text-white" /> Online Reviews{" "}
             </a>
           </li>
         </ul>
