@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <>
       <aside
-        className="pt-6 pl-4 bg-slate-900 t-10 lg:row-span-4 lg:col-span-1 md:col-span-5"
+        className="hidden pt-6 pl-4 bg-slate-900 t-10 lg:row-span-4 lg:col-span-1 md:col-span-5 md:block"
         aria-label="Sidebar"
       >
         <ul className="flex flex-col space-y-2 rounded">
