@@ -10,49 +10,49 @@ export default function Example() {
     All: [
       {
         id: 1,
-        title: "Does drinking coffee make you smarter?",
+        title: "Message 1",
         date: "5h ago",
         commentCount: 5,
-        shareCount: 2,
+        status: "active",
       },
       {
         id: 2,
-        title: "So you've bought coffee... now what?",
+        title: "Message 2",
         date: "2h ago",
         commentCount: 3,
-        shareCount: 2,
+        status: "active",
       },
     ],
     Active: [
       {
         id: 1,
-        title: "Is tech making coffee better or worse?",
+        title: "Active Message1",
         date: "Jan 7",
         commentCount: 29,
-        shareCount: 16,
+        status: "active",
       },
       {
         id: 2,
-        title: "The most innovative things happening in coffee",
+        title: "Active Message2",
         date: "Mar 19",
         commentCount: 24,
-        shareCount: 12,
+        status: "active",
       },
     ],
     Closed: [
       {
         id: 1,
-        title: "Ask Me Anything: 10 answers to your questions about coffee",
+        title: "Closed Message1",
         date: "2d ago",
         commentCount: 9,
-        shareCount: 5,
+        status: "closed",
       },
       {
         id: 2,
-        title: "The worst advice we've ever heard about coffee",
+        title: "Closed Message2",
         date: "4d ago",
         commentCount: 1,
-        shareCount: 2,
+        status: "closed",
       },
     ],
   });
@@ -104,7 +104,7 @@ export default function Example() {
                       <li>&middot;</li>
                       <li>{post.commentCount} comments</li>
                       <li>&middot;</li>
-                      <li>{post.shareCount} shares</li>
+                      <li>{post.status}</li>
                     </ul>
 
                     <a

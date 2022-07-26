@@ -11,16 +11,32 @@ const Nav = () => {
       >
         <ul className="flex flex-col space-y-2 rounded">
           <Link href="/elstrim">
-            <li className="flex py-3 items-center p-2 text-base font-normal text-white  hover:bg-teal-400 rounded-l-full">
+            <li className="flex items-center p-2 py-3 text-base font-normal text-white rounded-l-full hover:bg-teal-400">
               <a className="flex ml-3 ">
                 <HomeIcon className="w-5 h-5 mr-2 " /> Dashboard{" "}
               </a>
             
             </li>
           </Link>
-          <li className="py-3 text-slate-500 rounded-l-full bg-slate-100">
+          <Link href="/elstrim">
+            <li className="flex items-center p-2 py-3 text-base font-normal text-white rounded-l-full hover:bg-teal-400">
+              <a className="flex ml-3 ">
+                <HomeIcon className="w-5 h-5 mr-2 " /> Dashboard{" "}
+              </a>
+            
+            </li>
+          </Link>
+          <Link href="/elstrim">
+            <li className="flex items-center p-2 py-3 text-base font-normal text-white rounded-l-full hover:bg-teal-400">
+              <a className="flex ml-3 ">
+                <HomeIcon className="w-5 h-5 mr-2 " /> Dashboard{" "}
+              </a>
+            
+            </li>
+          </Link>
+          <li className="py-3 rounded-l-full text-slate-500 bg-slate-100">
             <a className="flex ml-3">
-              <SparklesIcon className="w-5  h-5 text-slate-500" /> Online Reviews{" "}
+              <SparklesIcon className="w-5 h-5 text-slate-500" /> Online Reviews{" "}
             </a>
           </li>
         </ul>
